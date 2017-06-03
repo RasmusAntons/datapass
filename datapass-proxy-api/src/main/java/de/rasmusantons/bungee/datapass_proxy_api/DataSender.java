@@ -8,4 +8,8 @@ public interface DataSender {
 	 * @param dataEvent the event
 	 */
 	void sendData(DataPassEvent dataEvent);
+
+	void broadcastData(DataPassEvent dataEvent);
+
+	void broadcastDataToOthers(DataPassEvent dataEvent);
 }
